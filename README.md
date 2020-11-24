@@ -27,7 +27,7 @@ python generate.py --conf diffusion.conf
 ## Samples
 
 Uncurated samples from semantic level 64.
-[git_teaser.pdf](https://github.com/semanticddpm/anonymous-semantic-matching-ddpm/files/5586948/git_teaser.pdf)
+![git_teaser](https://user-images.githubusercontent.com/74697009/100038137-d3be8900-2e46-11eb-871c-21d0d6e6919c.PNG)
 
 ## References
 
