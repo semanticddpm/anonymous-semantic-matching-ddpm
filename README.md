@@ -2,6 +2,12 @@
 
 cvpr 2021 paper id 4190
 
+## Requirements
+If needed, install requirements. I have tested on PyTorch 1.4.
+```bash
+pip install -r requirements.txt
+```
+
 ## Training
 
 First prepare lmdb dataset:
@@ -17,9 +23,20 @@ python train.py --conf diffusion.conf
 ```
 
 ## Generating
+First put images and models in folders:
+- Create checkpoint folder and put trained model. 
+- Put reference images in reference folder.
 
-You need to modify dataset path, refpath, ckpt, and mode in diffusion.conf file.
-
+Then, you need to modify dataset path, refpath, semantic levels, ckpt, and mode in diffusion.conf file.
+For example,
+```bash
+path: data/ffhq_lmdb
+refpath: reference/face
+n_sample: 10
+semantic_level1: 32
+ckpt: checkpoint/ffhq_256_1200000.pt
+```
+Then run generate
 ```bash
 python generate.py --conf diffusion.conf 
 ```
