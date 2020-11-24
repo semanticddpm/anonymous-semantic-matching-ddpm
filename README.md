@@ -24,6 +24,8 @@ You need to modify dataset path, refpath, ckpt, and mode in diffusion.conf file.
 python generate.py --conf diffusion.conf 
 ```
 
+DDPM trained on FFHQ for 1.2M steps: [GoogleDrive](https://drive.google.com/drive/folders/1aOuHF6yo-IlfidL2duu9IEDHMuQ008vc?usp=sharing)
+
 ## Samples
 
 Uncurated samples from semantic level 64.
