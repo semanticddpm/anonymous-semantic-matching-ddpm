@@ -35,7 +35,15 @@ refpath: reference/face
 n_sample: 10
 semantic_level1: 32
 ckpt: checkpoint/ffhq_256_1200000.pt
+mode: generate
 ```
+For editing with scribbles, semantic_levels2 and mode should be modified.
+```bash
+semantic_level1: 8
+semantic_level1: 32
+mode: scribble
+```
+
 Then run generate
 ```bash
 python generate.py --conf diffusion.conf 
