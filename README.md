@@ -24,7 +24,7 @@ python train.py --conf diffusion.conf
 
 ## Generating
 First put images and models in folders:
-- Create checkpoint folder and put trained model. 
+- Create checkpoint folder and place trained model. 
 - Put reference images in reference folder.
 
 Then, you need to modify refpath, semantic levels, ckpt, and mode in diffusion.conf file.
