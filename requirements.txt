@@ -1,0 +1,17 @@
+certifi==2020.6.20
+dataclasses==0.8
+lmdb==1.0.0
+mkl-fft==1.2.0
+mkl-random==1.1.1
+mkl-service==2.3.0
+numpy @ file:///tmp/build/80754af9/numpy_and_numpy_base_1603487797006/work
+olefile==0.46
+Pillow @ file:///tmp/build/80754af9/pillow_1603822238230/work
+pydantic==1.7.2
+pyhocon==0.3.57
+pyparsing==2.4.7
+six @ file:///tmp/build/80754af9/six_1605205335545/work
+tensorfn==0.1.5
+torch==1.4.0
+torchvision==0.5.0
+tqdm==4.52.0
