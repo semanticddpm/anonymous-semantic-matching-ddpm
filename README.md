@@ -27,10 +27,9 @@ First put images and models in folders:
 - Create checkpoint folder and put trained model. 
 - Put reference images in reference folder.
 
-Then, you need to modify dataset path, refpath, semantic levels, ckpt, and mode in diffusion.conf file.
+Then, you need to modify refpath, semantic levels, ckpt, and mode in diffusion.conf file.
 For example,
 ```bash
-path: data/ffhq_lmdb
 refpath: reference/face
 n_sample: 10
 semantic_level1: 32
