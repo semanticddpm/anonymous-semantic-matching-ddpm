@@ -24,6 +24,11 @@ You need to modify dataset path, refpath, ckpt, and mode in diffusion.conf file.
 python generate.py --conf diffusion.conf 
 ```
 
+## Samples
+
+Uncurated samples from semantic level 64.
+[git_teaser.pdf](https://github.com/semanticddpm/anonymous-semantic-matching-ddpm/files/5586948/git_teaser.pdf)
+
 ## References
 
 This implementation uses code from following repositories:
